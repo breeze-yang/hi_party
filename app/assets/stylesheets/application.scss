@@ -16,6 +16,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+#main_header {
+  min-height: 100px;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.main-nav {
+  margin-top: 25px;
+}
+
 .navbar-inverse.opaque {
   background-color: rgba(34, 34, 34, 0.9);
 }

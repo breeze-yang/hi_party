@@ -1,3 +1,33 @@
-%img{ src: 'banner/first.png', class: 'img-responsive' }
-%img{ src: 'banner/first.png', class: 'img-responsive' }
-%img{ src: 'banner/first.png', class: 'img-responsive' }
+%div#home_banner
+  %img{ src: 'banner/home_banner.png', class: 'img-responsive', style: 'width: 100%' }
+%div.article.container
+  %div.content_center
+    %div.wrap_with_line
+      %ul.list-inline.row
+        %li.line.col-sm-4
+        %li.col-sm-4 高端娱乐策划
+        %li.line.col-sm-4
+    %span.triangle
+    %p 组织、策划各类派对，用心打造高端娱乐活动
+
+  %div.diagonal_dividing
+    %div.wrap
+      %div.left
+        %img{ src: 'banner/private_party_banner.png', class: 'img-responsive' }
+      %div.right
+        %a{href: 'test.com'}
+          %img{ src: 'banner/kids_party_banner.png', class: 'img-responsive' }
+
+  %div.diagonal_dividing_inverse
+    %div.wrap
+      %div.left
+        %a{href: 'test.com'}
+          %img{ src: 'banner/dinner_party_banner.png', class: 'img-responsive' }
+      %div.right
+        %a{href: 'test.com'}
+          %img{ src: 'banner/company_party_banner.png', class: 'img-responsive' }
+
+%div.contact_us
+  %div.content_center
+    %p 联系我们
+
