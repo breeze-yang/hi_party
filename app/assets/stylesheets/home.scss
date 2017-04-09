@@ -25,20 +25,17 @@
 .wrap_with_line {
   height: 70px;
   white-space:nowrap;
-  ul {
-    font-size: 40px;
-  }
+  font-size: $font-size-h1;
 
   @media (min-width: $screen-sm) {
     li.line {
       border-bottom: 4px solid;
-      margin-top: 32px;
+      margin-top: 25px;
     }
   }
 }
 
 .diagonal_dividing {
-  margin-bottom: 10px;
   div.wrap {
     width: 100%;
     height: 0;
@@ -83,7 +80,6 @@
   opacity: 0.8;
 }
 .diagonal_dividing_inverse {
-  margin-bottom: 10px;
   div.wrap {
     width: 100%;
     height: 0;
@@ -123,4 +119,9 @@
       }
     }
   }
+}
+
+.contact_us {
+  background: #fff;
+  padding: 20px;
 }

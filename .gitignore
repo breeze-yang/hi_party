@@ -5,7 +5,7 @@
 !/tmp/.keep
 .byebug_history
 /public/faces
-/public/banner
+/public/image
 /public/uploads
 /public/assets
 /vendor/*
